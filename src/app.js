@@ -8,7 +8,10 @@ async function fetchCountries() {
         const response = await axios.get("https://restcountries.com/v3.1/all?fields=name,flag,population,region")
         console.log(response.data)
 
-        countryList.innerHTML = `${ response.data[0]}`
+        countryList.innerHTML = `<li>
+        <p>${ response.data[0].name.common}</p>
+        <p>Has a population of ${ response.data[0].population}</p>
+        </li>`
 
     } catch ( e ) {
         console.error( e )
@@ -21,3 +24,23 @@ async function fetchCountries() {
 }
 
 void fetchCountries()
+
+let color
+function assignColorToCountry(region) {
+    if (region === "Africa") {
+        color = "blue"
+    } else if (region === "Americas") {
+        color = "green"
+    } else if (region === "Asia") {
+        color = "red"
+    } else if (region === "Europe") {
+        color = "yellow"
+    } else if (region === "Oceania") {
+        color = "purple"
+    } else {
+        color = "black"
+    }
+}
+
+assignColorToCountry( )
+

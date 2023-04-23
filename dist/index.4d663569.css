@@ -16,4 +16,28 @@ h1 {
   font-family: Sigmar, cursive;
 }
 
+#country-list li p {
+  color: #000;
+}
+
+#country-list li p[style*="color:blue"] {
+  color: #00f;
+}
+
+#country-list li p[style*="color:green"] {
+  color: green;
+}
+
+#country-list li p[style*="color:red"] {
+  color: red;
+}
+
+#country-list li p[style*="color:yellow"] {
+  color: #ff0;
+}
+
+#country-list li p[style*="color:purple"] {
+  color: purple;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */

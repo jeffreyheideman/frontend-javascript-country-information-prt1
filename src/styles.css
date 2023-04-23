@@ -23,3 +23,27 @@ h1 {
 img {
     /*border: 2px solid green;*/
 }
+
+/* Country name color based on region */
+#country-list li p {
+    color: black; /* Default color */
+}
+
+#country-list li p[style*="color:blue"] {
+    color: blue;
+}
+
+#country-list li p[style*="color:green"] {
+    color: green;
+}
+
+#country-list li p[style*="color:red"] {
+    color: red;
+}
+
+#country-list li p[style*="color:yellow"] {
+    color: yellow;
+}
+
+#country-list li p[style*="color:purple"] {
+    color: purple;
