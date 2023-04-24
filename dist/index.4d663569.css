@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Sigmar&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  margin-top: 4rem;
+  font-family: Sigmar, cursive;
+}
+
+.blue {
+  color: #00f;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: #ff0;
+}
+
+.purple {
+  color: purple;
+}
+
+.black {
+  color: #000;
+}
+
+.outer-list-wrapper {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  flex-direction: row;
+  margin: 4rem;
+  padding: 1rem;
+}
+
+.country-list {
+  height: 9000px;
+  flex-flow: column wrap;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+}
+
+.country-list-item {
+  height: 100px;
+  width: 400px;
+  flex: none;
+  padding: 2rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
