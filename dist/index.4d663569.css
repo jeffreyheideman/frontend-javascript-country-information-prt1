@@ -16,28 +16,52 @@ h1 {
   font-family: Sigmar, cursive;
 }
 
-#country-list li p {
-  color: #000;
-}
-
-#country-list li p[style*="color:blue"] {
+.blue {
   color: #00f;
 }
 
-#country-list li p[style*="color:green"] {
+.green {
   color: green;
 }
 
-#country-list li p[style*="color:red"] {
+.red {
   color: red;
 }
 
-#country-list li p[style*="color:yellow"] {
+.yellow {
   color: #ff0;
 }
 
-#country-list li p[style*="color:purple"] {
+.purple {
   color: purple;
+}
+
+.black {
+  color: #000;
+}
+
+.outer-list-wrapper {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  flex-direction: row;
+  margin: 4rem;
+  padding: 1rem;
+}
+
+.country-list {
+  height: 9000px;
+  flex-flow: column wrap;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+}
+
+.country-list-item {
+  height: 100px;
+  width: 400px;
+  flex: none;
+  padding: 2rem;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
